@@ -1,0 +1,426 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#foto-principal{
+    text-align: center;
+    color: white;
+    background-image: url(imagens/pexels-hikaique-65438.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+#texto-foto1{
+    padding-top: 75px;
+}
+
+#texto-foto1 h1{
+    font-size: 37px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+
+}
+
+#texto-foto1 p{
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+
+}
+
+#texto-foto1 button{
+    padding: 7px;
+    font-size: 11px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: orangered;
+    letter-spacing: 1px;
+}
+
+#texto-foto1 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#nossas-soluções{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(229, 230, 231);
+
+}
+
+#nossas-soluções h1{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#imagens{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#imagens h2{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#imagem1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(imagens/interior.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+}
+
+#imagem2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(imagens/notebook.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+}
+
+#imagem3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(imagens/planta.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+}
+
+#imagem4{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(imagens/pexels-valeriya-1129413.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+}
+
+#hiper-realistas{
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(229, 230, 231);
+}
+
+#hiper-realistas h1{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+#hiper-realistas h2{
+    margin-bottom: 30px;
+}
+
+#hiper-realistas p{
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#hiper-realistas button{
+    padding: 7px;
+    font-size: 11px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: orangered;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+#hiper-realistas button a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+}
+
+#imagens-3tela{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#imagens-3tela img{
+    width: 100vw;
+    height: 400px;
+}
+
+#filmes3d{
+    background-color: rgb(187, 241, 223);
+    padding: 60px 20px 50px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#texto3d{
+    width: 400px;
+}
+
+#texto3d h1{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#texto3d p{
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+#texto3d button{
+    padding: 7px;
+    font-size: 11px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: orangered;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#texto3d button a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+}
+
+#plantas-humanizadas{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(122, 201, 181);
+    padding: 70px 20px 50px 20px;
+
+}
+
+#texto-planta{
+    width: 400px;
+}
+
+#texto-planta h1{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#texto-planta p{
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+#texto-planta button{
+    padding: 7px;
+    font-size: 11px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: orangered;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#texto-planta button a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+}
+
+#realidade-virtual{
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+}
+
+#realidade-virtual h1{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#realidade-virtual p{
+    padding-top: 40px;
+}
+
+#realidade-virtual iframe{
+    width: 700px;
+    padding-top: 40px;
+}
+
+#destaque{
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+}
+
+#destaque p{
+    margin-top: 20px;
+    line-height: 23px;
+} 
+
+#blocos{
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+
+.tblocos{
+    background-color: rgb(133, 224, 171);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+}
+
+.tblocos p{
+    padding-top: 10px;
+}
+
+#botao-destaque{
+    text-align: center;
+    padding: 30px;
+}
+
+#botao-destaque button{
+    padding: 7px;
+    background-color: rgb(133, 224, 171);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#botao-destaque button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#parte1{
+    margin: auto;
+    width: 700px;
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+}
+
+#parte1 h1{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#parte1 p{
+    padding-top: 40px;
+}
+
+#parte1 button{
+    margin-top: 30px;
+    padding: 7px;
+    background-color: rgb(133, 224, 171);
+    border-radius: 15px;
+}
+
+#parte1 button a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+footer {
+    background-color: #b1afaf;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007B55;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .footer-info a {
+    color: #007B55;
+    text-decoration: none;
+  }
+  
+  .footer-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin: 15px 0;
+  }
+  
+  .footer-social a {
+    color: #007B55;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-copy {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #585858;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
